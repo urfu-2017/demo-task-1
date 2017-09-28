@@ -1,6 +1,6 @@
 'use strict';
 
-exports.isStar = false;
+exports.isStar = true;
 
 exports.sum = function (a, b) {
     let c = arguments[0] || 0;
