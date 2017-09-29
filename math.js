@@ -2,7 +2,6 @@
 
 exports.isStar = true;
 
-exports.sum = function (a, b) {
-    let res = Number(a) + Number(b);
-    return  res;
+exports.sum = function (a, b) {    
+    return  Number(a) + Number(b);
 };
