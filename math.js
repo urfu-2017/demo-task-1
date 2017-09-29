@@ -9,4 +9,4 @@ exports.sum = function (a, b, c) {
     }
 
     return Number(a) + Number(b);
-};
+}
