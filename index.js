@@ -2,7 +2,7 @@
 
 const { sum } = require('./math');
 
-console.info(sum(1, 2));
+console.info(sum(1, '2'));
 // 3
 
 console.info(sum(63, 15));
