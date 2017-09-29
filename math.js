@@ -3,7 +3,11 @@
 exports.isStar = true;
 
 exports.sum = function (a, b) {
-    if (a !== null && a !== undefined && b !== null && b !== undefined) {
-        return parseFloat(a) + parseFloat(b);
+    if (arguments.length === 2) {
+        return parseInt(a) + parseInt(b);
+    } else if (arguments.length === 3) {
+        return parseInt(a) + parseInt(b) + parseInt(arguments[2]);
     }
+
+    return -1;
 };
