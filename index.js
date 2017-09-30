@@ -1,3 +1,4 @@
+/* eslint linebreak-style: ["error", "windows"]*/
 'use strict';
 
 const { sum } = require('./math');
