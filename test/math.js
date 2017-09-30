@@ -1,4 +1,3 @@
-/* eslint linebreak-style: ["error", "windows"]*/
 /* eslint-env mocha */
 'use strict';
 
