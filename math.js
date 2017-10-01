@@ -3,7 +3,7 @@
 exports.isStar = false;
 
 exports.sum = function (a, b) {
-    let c = Number(a);
-    let d = Number(b);
+    var c = Number(a);
+    var d = Number(b);
     return c + d;
 };
