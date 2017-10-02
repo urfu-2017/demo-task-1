@@ -2,6 +2,10 @@
 
 exports.isStar = true;
 
-exports.sum = function (a, b, c) {
-    return Number(a) + Number(b) + Number(c);
+exports.sum = function () {
+    var result=0;
+    for (var i = 0; i < arguments.length; i++) {
+        result += arguments[i];
+      }
+    return result;
 };
