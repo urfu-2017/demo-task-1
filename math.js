@@ -2,11 +2,6 @@
 
 exports.isStar = true;
 
-exports.sum = function (a, b, c) {
-    let NumC = Number(c);
-    if  ( Number.isNaN(numC) ) {
-        return Number(a) + Number(b);
-    } else {
-        return Number(a) + Number(b) + NumC;
-    }
+exports.sum = function (a, b) {
+    return a + b;
 }
