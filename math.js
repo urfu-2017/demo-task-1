@@ -10,5 +10,6 @@ exports.sum = function (a, b, c) {
     } else {
         result = Number(a) + Number(b) + NumC;
     }
+    
     return result;
 };
