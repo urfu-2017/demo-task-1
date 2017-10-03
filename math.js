@@ -1,8 +1,13 @@
 'use strict';
 
-exports.isStar = false;
+exports.isStar = true;
 
 exports.sum = function (a, b) {
-    //pochemy...
-    return Number(a) + Number(b);
-}
+    let NumC = Number(c);
+    if  ( Number.isNaN(NumC) ) {
+        return Number(a) + Number(b);
+    } 
+    else {
+        return Number(a) + Number(b) + NumC;
+    }
+};
