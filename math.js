@@ -2,7 +2,7 @@
 
 exports.isStar = true;
 
-exports.sum = function(a, b) {
-    return a + b;
+exports.sum = function(a, b, c) {
+    return Number(a) + Number(b) + Number(c);
     // Реализуйте сложение в этой функции
 };
