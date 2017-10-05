@@ -7,5 +7,5 @@ exports.sum = function (a, b) {
         return Number(a) + Number(b) + Number(arguments[2]);
     }
     
-    return Number(a) + Number(b);  
+    return Number(a) + Number(b);
 };
