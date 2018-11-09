@@ -13,3 +13,6 @@ console.info(sum('12', 7));
 
 console.info(sum('12', 7, 3));
 // 22
+
+console.info(sum('12', 7, 4));
+// 23
